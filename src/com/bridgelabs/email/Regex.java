@@ -12,7 +12,7 @@ public class Regex {
         String regex = "^[a-zA-Z]+([._+-]{0,1}[a-zA-Z0-9]+)*@[a-zA-Z0-9]+.[(com)|(co)|(net)]+(?:\\.[a-z]{2,}){0,1}$";
         
         String email = "abc.xyz@bridgelabz.co"; 
-        String email1 = "abc.xyz@bridgelabz.co"; 
+        String email1 = "abc.xyz@bridgelabz.co.in"; 
        
         
         Pattern pattern = Pattern.compile(regex); 
