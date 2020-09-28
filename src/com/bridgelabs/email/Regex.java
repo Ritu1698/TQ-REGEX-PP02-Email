@@ -9,8 +9,9 @@ public class Regex {
     { 
   
 		System.out.println("Welcome to Email problem");
-        String regex = "^[a-zA-Z]+@[a-zA-Z]+.[(com)|(co)]+$"; 
-        String email = "abc@bridgelabz.co"; 
+        String regex = "^[a-zA-Z]+[.+-_]{0,1}[a-zA-Z0-9]*@[a-zA-Z]+.[(com)|(co)]+"; 
+        String email = "abc.xyz@bridgelabz.co"; 
+        String email1 = "abc.xyz@bridgelabz.co"; 
        
         
         Pattern pattern = Pattern.compile(regex); 
@@ -18,8 +19,9 @@ public class Regex {
         
         
         Matcher matcher = pattern.matcher(email); 
-        
+        Matcher matcher1 = pattern.matcher(email1); 
         System.out.println("Pattern match is: " + matcher.find()); 
+        System.out.println("Pattern match is: " + matcher1.find()); 
         
     } 
 
