@@ -9,7 +9,8 @@ public class Regex {
     { 
   
 		System.out.println("Welcome to Email problem");
-        String regex = "^[a-zA-Z]+[.+-_]{0,1}[a-zA-Z0-9]*@[a-zA-Z]+.[(com)|(co)]+"; 
+        String regex = "^[a-zA-Z]+[.+-_]{0,1}[a-zA-Z0-9]*@[a-zA-Z]+.[(com)|(co)]+";
+        
         String email = "abc.xyz@bridgelabz.co"; 
         String email1 = "abc.xyz@bridgelabz.co"; 
        
